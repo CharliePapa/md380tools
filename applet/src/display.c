@@ -84,7 +84,7 @@ const gfx_bitmap bmp_eye = {12, 12, 6, 4, eye_pix, &eye_pal, 0};
 
 #if defined(FW_D13_020) || defined(FW_S13_020)
 #define __PTT_LASTHEARD
-#define __PTT_LASTHEARD_DOWN
+#undef __PTT_LASTHEARD_DOWN
 #define __RX_SCREEN_OPTION
 #define __RX_SCREEN_OPTION_WHITE
 #endif
