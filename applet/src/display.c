@@ -1825,17 +1825,8 @@ void draw_datetime_row_hook()
 void display_credits()
 {
     drawtext(L"MD380Tools ", 160, 20);
-    drawtext(L"by KK4VCZ  ", 160, 60);
-    drawtext(L"and Friends", 160, 100);
-#ifdef MD380_d13_020
-    drawtext(L"D13.020 KD4Z", 160, 140);
-#endif
-#ifdef MD380_d02_032
-    drawtext(L"D02.032 KD4Z", 160, 140);
-#endif
-#ifdef MD380_s13_020
-    drawtext(L"S13.020 KD4Z", 160, 140);
-#endif
+    drawtext(L"customized ", 160, 60);
+    drawtext(L" by W3CP   ", 160, 100);
     drawascii(GIT_VERSION, 160, 180);
     drawtext(VERSIONDATE, 160, 220);
 }
